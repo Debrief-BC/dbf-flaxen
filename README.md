@@ -1,29 +1,17 @@
-[![CircleCI](https://circleci.com/gh/ethereum/remix-ide.svg?style=svg)](https://circleci.com/gh/ethereum/remix-ide)
+![CircleCI](https://circleci.com/gh/ethereum/remix-ide.svg?style=svg)
 
-# Remix
+# Flaxen
 
-Remix is a browser-based compiler and IDE that enables users to build **Ethereum contracts with Solidity language** and to debug transactions.
+Flaxen is a browser-based compiler and IDE that enables users to build **Debrief contracts with Solidity language** and to debug transactions and interact with [Debrief Blockchain](https://testnet.debrief.co).
 
-To try it out, visit [https://remix.ethereum.org](https://remix.ethereum.org).
 
-https://github.com/ethereum/remix-ide/releases also gives others ways to use Remix locally. Please check it out.
-
-Remix consists of many modules and in this repository you will find the Remix IDE (aka. Browser-Solidity).
-
-![Remix screenshot](https://github.com/ethereum/remix-ide/raw/master/remix_screenshot.png)
-
-## Offline Usage
-
-The `gh-pages` branch has always the latest stable build of Remix. It also contains a ZIP file with the entire build. Download it to use offline.
-
-Note: It contains the latest release of Solidity available at the time of the packaging. No other compiler versions are supported.
-
+![Flaxen screenshot](https://github.com/ethereum/remix-ide/raw/master/remix_screenshot.png)
 
 ## INSTALLATION:
 
 Install **npm** and **node.js** (see https://docs.npmjs.com/getting-started/installing-node), then do:
 
-Remix-ide has been published as an npm module:
+Flaxen has been published as an npm module:
 
 ```bash
 npm install remix-ide -g
@@ -52,7 +40,7 @@ Run `npm start` and open `http://127.0.0.1:8080` in your browser.
 Then open your `text editor` and start developing.
 The browser will automatically refresh when files are saved.
 
-Most of the the time working with other modules (like debugger etc.) hosted in the [Remix repository](https://github.com/ethereum/remix) is not needed.
+Most of the the time working with other modules (like debugger etc.) hosted in the [Flaxen repository](https://github.com/ethereum/remix) is not needed.
 
 ### Troubleshooting building
 
@@ -86,7 +74,7 @@ Running unit tests via `npm test` requires at least node v7.0.0
 
 To run the Selenium tests via Nightwatch:
 
- - Build Remix IDE and serve it: `npm run build && npm run serve` # starts web server at localhost:8080
+ - Build Flaxen IDE and serve it: `npm run build && npm run serve` # starts web server at localhost:8080
  - Make sure Selenium is installed `npm run selenium-install` # don't need to repeat
  - Run a selenium server `npm run selenium`
  - Run all the tests `npm run nightwatch_local_firefox` or `npm run nightwatch_local_chrome`
@@ -134,4 +122,4 @@ After that, follow these steps:
 
 ## Documentation
 
-To see details about how to use Remix for developing and/or debugging Solidity contracts, please see [our documentation page](https://remix-ide.readthedocs.io/en/latest/)
+To see details about how to use Flaxen for developing and/or debugging Solidity contracts, please see [our documentation page](https://remix-ide.readthedocs.io/en/latest/)
